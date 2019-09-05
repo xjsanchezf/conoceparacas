@@ -1,0 +1,20 @@
+/* only for sections*/
+
+#text-title {
+    top: 10%; bottom: unset;
+}
+
+#text-container {
+    left: 10%; right: unset;
+}
+#text-content {
+    position: absolute;
+    height: fit-content;
+    top: 50vh;
+}
+
+.section-img {
+    position: absolute;
+    right: 0%; bottom: 0%;
+    height: 100vh;
+}

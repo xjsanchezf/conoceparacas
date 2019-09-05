@@ -1,1 +1,46 @@
 /* general stylesheet */
+@font-face {
+    font-family: 'Raleway';
+    src:    url(fonts/Raleway-Regular.ttf) format(truetype),
+            url(fonts/Raleway-Regular.otf) format(opentype);
+}
+
+
+body {
+    background-image: url(images/general/fondo.jpg);
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+#text-title {
+    position: absolute;
+    bottom: 10%; left: 5%;
+}
+#text-title img {
+    height: 20vh; width: auto;
+}
+
+
+#btn-menu {
+    position: absolute;
+    bottom: 10%; right: 0%;
+}
+.btn {
+    position: absolute;
+    bottom: 0%; right: 0%;
+    height: 10vh; width: auto;
+}
+
+#text-container {
+    position: absolute;
+    top: 0%; right: 0%; 
+    width: 30vw; height: 100vh;
+
+    padding: 5em;
+
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #FAFAFA;
+    letter-spacing: 0.05em;
+    line-height: 2em;
+}
