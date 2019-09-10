@@ -9,8 +9,9 @@
 }
 #text-content {
     position: absolute;
-    height: fit-content;
-    top: 50vh;
+    /*height: fit-content;*/
+    top: 35vh;
+    width: 550px !important;
 }
 
 .section-img {
